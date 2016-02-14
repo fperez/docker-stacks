@@ -16,7 +16,7 @@ RUN conda install --yes \
     'scikit-learn=0.16*' \
     'scikit-image=0.11*' \
     'sympy=0.7*' \
-    'cython=0.22*' \
+    'cython=0.23*' \
     'patsy=0.4*' \
     'statsmodels=0.6*' \
     'cloudpickle=0.1*' \
@@ -36,7 +36,7 @@ RUN conda create -p $CONDA_DIR/envs/python2 python=2.7 \
     'scikit-learn=0.16*' \
     'scikit-image=0.11*' \
     'sympy=0.7*' \
-    'cython=0.22*' \
+    'cython=0.23*' \
     'patsy=0.4*' \
     'statsmodels=0.6*' \
     'cloudpickle=0.1*' \
